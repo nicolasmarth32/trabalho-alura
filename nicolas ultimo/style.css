@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a0a23;
+    color: #ffffff;
+  }
+  
+  header {
+    background-color: #111144;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  nav button:hover {
+    background-color: #0055aa;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .cronometro {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  #timer {
+    font-size: 3rem;
+    margin: 1rem 0;
+  }
+  
+  .botoes-cronometro button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #00aa88;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .botoes-cronometro button:hover {
+    background-color: #008866;
+  }
+  
+  .curso {
+    margin-top: 4rem;
+    padding: 1.5rem;
+    background-color: #1a1a3d;
+    border-radius: 10px;
+  }
+  

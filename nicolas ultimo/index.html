@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursos do Alura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Cursos do Alura</h1>
+    <nav>
+      <button onclick="scrollToSection('programacao')">Programação</button>
+      <button onclick="scrollToSection('design')">Design</button>
+      <button onclick="scrollToSection('marketing')">Marketing</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cronometro">
+      <h2>Cronômetro</h2>
+      <div id="timer">00:00:00</div>
+      <div class="botoes-cronometro">
+        <button onclick="startTimer()">Iniciar</button>
+        <button onclick="pauseTimer()">Pausar</button>
+        <button onclick="resetTimer()">Resetar</button>
+      </div>
+    </section>
+
+    <section id="programacao" class="curso">
+      <h2>Curso de Programação</h2>
+      <p>Aprenda HTML, CSS, JavaScript e mais.</p>
+    </section>
+
+    <section id="design" class="curso">
+      <h2>Curso de Design</h2>
+      <p>UI, UX, Figma, cores e muito mais!</p>
+    </section>
+
+    <section id="marketing" class="curso">
+      <h2>Curso de Marketing</h2>
+      <p>Estratégias digitais, SEO, redes sociais e anúncios.</p>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
